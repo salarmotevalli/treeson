@@ -543,10 +543,9 @@ dependencies = [
 [[package]]
 name = "tui-tree-widget"
 version = "0.17.0"
+source = "git+https://github.com/salarmotevalli/tui-rs-tree-widget.git#12e5d506d9ecade29d5f2f99daef65e3bf1d57a9"
 dependencies = [
  "ratatui",
- "serde",
- "serde_json",
  "unicode-width",
 ]
 
