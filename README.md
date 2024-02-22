@@ -6,5 +6,5 @@ cat sample.json | cargo run
 cargo run -- -i=sample.json
 ```
 
-###SCREENSHOT
+### SCREENSHOT
 ![Screenshot](media/screenshot.png)
