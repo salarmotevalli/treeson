@@ -26,15 +26,6 @@ impl Drawable<Header> for App<'_>{
             Paragraph::new("Quite: q".to_string()).block(Block::new().borders(Borders::all())),
             top_inner_layout[0],
         );
-        f.render_widget(
-            Paragraph::new("Expand All: e".to_string()).block(Block::new().borders(Borders::all())),
-            top_inner_layout[1],
-        );
-
-        f.render_widget(
-            Paragraph::new("Collapse All: c".to_string()).block(Block::new().borders(Borders::all())),
-            top_inner_layout[2],
-        );
     }
     // add code here
 }
